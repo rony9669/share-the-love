@@ -9,6 +9,10 @@ body {
     padding: 0;
 }
 
+p {
+    color: #707070;
+}
+
 #button {
     text-decoration: none;
     background-color: #ff5959;
@@ -41,6 +45,12 @@ body {
     line-height: 52px;
     text-align: center;
     color: #FFFFFF;
+}
+
+span {
+    font-size: 90px;
+    color: lightgreen;
+    font-family: 'Poppins', sans-serif;
 }
 
 .header-items p {
@@ -115,6 +125,7 @@ body {
 .donate-plan-section {
     text-align: center;
     margin: 100px;
+    background-image: ;
 }
 
 .donate-plan-section-text {
@@ -176,6 +187,58 @@ body {
 }
 
 
+/* Volunteer-Section */
+
+.volunteer-section {
+    display: flex;
+    margin: 50px;
+}
+
+#volunteer-image {
+    height: 270px;
+    width: 500px;
+    padding: 10px 20px;
+    border-radius: 55px;
+}
+
+.volunteer-section-text {
+    margin-left: 50px;
+    margin-right: 20px;
+    background-color: rgba(217, 217, 217, .3);
+    border-radius: 10px;
+}
+
+.volunteer-section-text h1 {
+    padding-left: 10px;
+}
+
+.volunteer-section-text p {
+    padding: 25px;
+    padding-left: 10px;
+    line-height: 32px;
+}
+
+#registration {
+    display: block;
+    text-align: center;
+    padding: 15px 2%;
+    text-decoration: none;
+    color: white;
+    background-color: #ff5959;
+    margin: 0 170px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#bd-volunteer-image {
+    margin-right: 45px;
+    height: 575px;
+    width: 506px;
+    border-radius: 10px;
+}
+
+
 /* Contact Section */
 
 .contact-section {
@@ -218,9 +281,6 @@ body {
 #subscribe-button {
     background-color: #ff5959;
     border: none;
-    padding-right: 40px;
-    padding-left: 35px;
-    padding-top: 20px;
     border-radius: 5px;
     color: white;
     font-size: 18px;
